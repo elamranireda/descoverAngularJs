@@ -1,0 +1,28 @@
+phpStorm shortcut :
+
+new file : cmd+N
+find file by name : cmd+shift+o;
+find symbole name  :  cmd+alt+O;
+deplace ligne : cmd+shift+flesh HAut
+navigate to class : cmd+O
+jump to navigation bar : cmd+haut
+previous occurence : alt+cmd+ Bat or Haut
+jump to declaration : cmd+B
+jump to implementation : cmd+B+alt
+extend selection : alt+Fleches
+
+close tab : cmd+w
+reformate code : cmd+alt+l
+file structure : cmd+alt+s
+select all occurences : cmd+alt+G
+move caret to ligne end : cmd+flesh
+move caret to ligne end with selection: cmd+shift+flesh
+caret to page bottom : fn+cmd+flesh bas
+caret to next word : alt+flesh
+
+
+
+
+
+
+

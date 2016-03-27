@@ -3,15 +3,6 @@
  */
 'use strict';
 
-var categories = [
-    {
-        'id': 1,'name':'film'
-    },
-    {
-        'id': 1,'name':'musiques'
-    },
-
-];
 app
     .controller('categoryIndex',function($scope) {
 
@@ -20,6 +11,7 @@ app
 
     })
     .controller('categoryCreate', function ($scope)  {
+
 
     })
     .controller('categoryRemove', function ($scope)  {

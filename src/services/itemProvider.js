@@ -19,4 +19,9 @@ app.service('itemProvider',function( ) {
         return items;
     }
 
+    this.create = function(item) {
+        items.push(item);
+        return items;
+    }
+
 });

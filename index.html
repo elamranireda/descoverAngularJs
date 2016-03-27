@@ -4,7 +4,9 @@
 <meta charset="UTF-8">
 <title>Heeloo</title>
 <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
 <script type="text/javascript" src="app.js"></script>
+    <script type="text/javascript" src="routing.js"></script>
 <!-- Controllers -->
 <script type="text/javascript" src="src/controllers/categoryController.js"></script>
 <script type="text/javascript" src="src/controllers/itemController.js"></script>
@@ -15,14 +17,10 @@
 <!-- Services -->
 
 <script type="text/javascript" src="src/services/itemProvider.js"></script>
+    <script type="text/javascript" src="src/services/categoryProvider.js"></script>
 </head>
 <body ng-app="collectify">
 <div ng-view></div>
-<div ng-controller="itemList">
-    <div ng-repeat="item in items">
-        <p decorate-item></p>
 
-    </div>
-</div>
 </body>
 </html>

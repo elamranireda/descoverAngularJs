@@ -1,0 +1,14 @@
+
+<ul>
+    <li><a href="#/">index</a></li>
+    <li><a href="#/items">items</a></li>
+    <li><a href="#/items/new">create item</a></li>
+    <li><a href="#/categories">categories</a></li>
+    <li><a href="#/categories/new">create category</a></li>
+</ul>
+<form>
+    <label>email :</label>
+    <input ng-model="user.email" type="email" name="email">
+    <input ng-model="user.password" type="password" name="password">
+    <button ng-click="create(user)">save user</button>
+</form>
